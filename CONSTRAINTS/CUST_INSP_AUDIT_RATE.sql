@@ -1,0 +1,9 @@
+--------------------------------------------------------
+--  Constraints for Table CUST_INSP_AUDIT_RATE
+--------------------------------------------------------
+
+  ALTER TABLE "AIDATAUSER"."CUST_INSP_AUDIT_RATE" ADD CONSTRAINT "CUST_INSP_AUDIT_RATE_PK" PRIMARY KEY ("CUST_ID") ENABLE;
+ 
+  ALTER TABLE "AIDATAUSER"."CUST_INSP_AUDIT_RATE" MODIFY ("CUST_ID" NOT NULL ENABLE);
+ 
+  ALTER TABLE "AIDATAUSER"."CUST_INSP_AUDIT_RATE" MODIFY ("NB_OF_COUNTRIES" NOT NULL ENABLE);

@@ -1,0 +1,9 @@
+--------------------------------------------------------
+--  Constraints for Table CUST_MARKETING_DATA
+--------------------------------------------------------
+
+  ALTER TABLE "AIDATAUSER"."CUST_MARKETING_DATA" ADD CONSTRAINT "CUST_MARKETING_DATA_PK" PRIMARY KEY ("CUST_ID") ENABLE;
+ 
+  ALTER TABLE "AIDATAUSER"."CUST_MARKETING_DATA" MODIFY ("CUST_ID" NOT NULL ENABLE);
+ 
+  ALTER TABLE "AIDATAUSER"."CUST_MARKETING_DATA" MODIFY ("NEWS_LETTER" NOT NULL ENABLE);

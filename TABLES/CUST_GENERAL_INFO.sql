@@ -1,0 +1,21 @@
+--------------------------------------------------------
+--  DDL for Table CUST_GENERAL_INFO
+--------------------------------------------------------
+
+  CREATE TABLE "AIDATAUSER"."CUST_GENERAL_INFO" 
+   (	"CUST_ID" VARCHAR2(32 CHAR), 
+	"DEDICATED_SUPERVISOR" VARCHAR2(60), 
+	"GI_INSPECTOR" BLOB, 
+	"GI_COORDINATION" BLOB, 
+	"GI_PROTOCOL" BLOB, 
+	"GI_SAMPLE_COL" BLOB, 
+	"GI_REF_SAMPLE" BLOB, 
+	"GI_LT" BLOB, 
+	"DEDICATED_SUPER" VARCHAR2(64), 
+	"CREATE_TIME" TIMESTAMP (6), 
+	"UPDATE_TIME" TIMESTAMP (6), 
+	"GI_EXPIRE_DAYS" NUMBER(4,0)
+   ) ;
+ 
+
+   COMMENT ON TABLE "AIDATAUSER"."CUST_GENERAL_INFO"  IS 'General Instructions';

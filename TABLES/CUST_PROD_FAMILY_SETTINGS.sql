@@ -1,0 +1,17 @@
+--------------------------------------------------------
+--  DDL for Table CUST_PROD_FAMILY_SETTINGS
+--------------------------------------------------------
+
+  CREATE TABLE "AIDATAUSER"."CUST_PROD_FAMILY_SETTINGS" 
+   (	"CUST_ID" VARCHAR2(32 CHAR), 
+	"REMEMBER_PROD_FAMILY" VARCHAR2(3 CHAR), 
+	"NB_CUSTPROD_TYPE" NUMBER(8,0), 
+	"FAMILY_TYPE" VARCHAR2(50 CHAR), 
+	"NB_OF_FAV_FAMILY" NUMBER(8,0), 
+	"CREATE_TIME" TIMESTAMP (6), 
+	"UPDATE_TIME" TIMESTAMP (6), 
+	"CHOOSE_PRO_TYPE" VARCHAR2(100)
+   ) ;
+ 
+
+   COMMENT ON TABLE "AIDATAUSER"."CUST_PROD_FAMILY_SETTINGS"  IS 'Product Family Settings';
