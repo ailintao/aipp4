@@ -1,0 +1,9 @@
+-- // alter CUST_INV_SETTINGS
+-- Migration SQL that makes the change goes here.
+
+ALTER TABLE AIDATAUSER.CUST_INV_SETTINGS MODIFY ( SUP_ACC_EMAIL NULL )
+
+-- //@UNDO
+-- SQL to undo the change goes here.
+ALTER TABLE AIDATAUSER.CUST_INV_SETTINGS MODIFY ( SUP_ACC_EMAIL NOT NULL )
+
