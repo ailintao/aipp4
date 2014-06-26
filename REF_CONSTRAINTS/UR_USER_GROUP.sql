@@ -1,9 +1,0 @@
---------------------------------------------------------
---  Ref Constraints for Table UR_USER_GROUP
---------------------------------------------------------
-
-  ALTER TABLE "AIDATAUSER"."UR_USER_GROUP" ADD CONSTRAINT "UR_USER_GROUP_UR_GROUP_FK" FOREIGN KEY ("GROUP_ID")
-	  REFERENCES "AIDATAUSER"."UR_GROUP" ("GROUP_ID") ENABLE;
- 
-  ALTER TABLE "AIDATAUSER"."UR_USER_GROUP" ADD CONSTRAINT "UR_USER_GROUP_UR_USER_FK" FOREIGN KEY ("USER_ID")
-	  REFERENCES "AIDATAUSER"."UR_USER" ("USER_ID") ENABLE;
